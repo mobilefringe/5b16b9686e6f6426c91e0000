@@ -6,7 +6,7 @@
 		<div class="page_container">
 			<div class="row text-left">
 			    <div style="height: 300px;margin-bottom:-30px;">
-			        <google-map :property="property" :zoom="10"></google-map>
+			        <google-map :property="property" :zoom="20"></google-map>
 			    </div>
 			</div>
 		</div>
