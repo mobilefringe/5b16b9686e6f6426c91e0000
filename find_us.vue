@@ -1,7 +1,7 @@
 <template>
 	<div class="page_container" id="find_us_container">
 	    <div class="page_header all_caps double_border_bottom">
-			<div class="page_container text_left"> Find Us</div>
+			<h2 class="page_container text_left"> Find Us</h2>
 		</div>
 		<div class="margin_25_across padding_top_40">
 			<div class="row text-left">
