@@ -434,7 +434,7 @@ a{
     position: relative;
     overflow: hidden;
 }
-.page_container_title {
+.page_header_title {
     font-family: arial;
     font-size: 16px;
     color: #000000;
