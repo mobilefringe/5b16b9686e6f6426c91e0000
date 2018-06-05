@@ -3280,6 +3280,7 @@ legend{
     color: #000000;
     letter-spacing: 1.88px;
     padding: 10px 0;
+    border: none;
 }
 .stores_table_headers{
 	background-color: #E7EBE3;
