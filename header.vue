@@ -89,11 +89,11 @@
     					<a href="#" class="menu_link dropdown-toggle hvr-underline-from-center" :id="item.name.id" @click="toggleSubMenu(item.id); item.show_sub_menu = !item.show_sub_menu" data-toggle="dropdown" aria-haspopup="true" :aria-expanded="item.show_sub_menu">{{item.name}} </a>
     					<transition name="custom-classes-transition" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
     						<div class="dropdown-menu" v-if="item.sub_menu" v-show="item.show_sub_menu">
-    						    <li>
-    						        <div v-for="sub_menu in item.sub_menu">
+    						    <li v-for="sub_menu in item.sub_menu">
+    						        <!--<div >-->
     						            <a v-if="sub_menu.external" :href="sub_menu.href" class="dropdown-item" target="_blank">{{sub_menu.name}}</a>
 						                <router-link  v-else tag="a" class="dropdown-item"  :to="sub_menu.href">{{sub_menu.name}}</router-link>
-    						        </div>
+    						        <!--</div>-->
     						    </li>
     						</div>
     					</transition>
