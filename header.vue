@@ -94,7 +94,6 @@
     						            <a v-if="sub_menu.external" :href="sub_menu.href" class="dropdown-item" target="_blank">{{sub_menu.name}}</a>
 						                <router-link  v-else tag="a" class="dropdown-item"  :to="sub_menu.href">{{sub_menu.name}}</router-link>
     						        </div>
-    						        
     						    </li>
     						</div>
     					</transition>
