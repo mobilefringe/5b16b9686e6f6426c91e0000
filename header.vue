@@ -81,7 +81,7 @@
     	<div class="menu-container hidden-phone ">
     		<div class="menu-div page_container">
     			<div v-for="item in menu_items" :class="item.parent_class_list" style="display: inline-block;padding: 0 20px;">
-    				<router-link :to="item.href" class="all_caps menu_link hvr-underline-from-lef"  :id="item.name.id" exact v-if="item.sub_menu == undefined">
+    				<router-link :to="item.href" class="all_caps menu_link hvr-underline-from-left"  :id="item.name.id" exact v-if="item.sub_menu == undefined">
     					{{item.name}}
     				</router-link>
     				<div v-else class="all_caps dropdown" :class="{open : item.show_sub_menu}">
