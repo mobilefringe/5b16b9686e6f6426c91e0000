@@ -1,5 +1,8 @@
 <template>
 	<div class="page_container" id="find_us_container">
+	    <div class="page_header all_caps double_border_bottom">
+			<div class="page_container text_left" v-html="currentPage.title"> </div>
+		</div>
 		<div class="margin_25_across padding_top_40">
 			<div class="row text-left">
 			    <div style="height: 300px;margin-bottom:-30px;">
