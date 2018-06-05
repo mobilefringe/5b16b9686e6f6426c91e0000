@@ -435,7 +435,11 @@ a{
     overflow: hidden;
 }
 .page_container_title {
-    
+    font-family: arial;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1.88px;
+    padding: 10px 0;
 }
 .menu-container{
     height:35px;
