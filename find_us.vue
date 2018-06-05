@@ -3,13 +3,12 @@
 	    <div class="page_header all_caps double_border_bottom">
 			<h2 class="page_container text_left page_header_title"> Find Us</h2>
 		</div>
-		<div class="page_container  padding_top_40">
+		<div class="page_container">
 			<div class="row text-left">
 			    <div style="height: 300px;margin-bottom:-30px;">
 			        <google-map :property="property"></google-map>
 			    </div>
 			</div>
-			<div class="padding_top_40"></div>
 		</div>
 	</div>
 </template>
