@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Stores",
+        "id": "stores_link",
+        "href": "/stores"
+    },
+    {
+        "name": "Promotions and Events",
+        "id": "events_link",
+        "href": "/promotions_and_events",
+        "show_sub_menu": false
+    },
+    {
+        "name": "Guest Services",
+        "id": "services_link",
+        "href": "#",
+        "show_sub_menu": false,
+        "sub_menu": [
+            {
+                "name": "Accessibilty ",
+                "href": "/pages/holtrenfrew-customer-service"
+            }
+        ]
+    },
+    {
+        "name": "Contact Us",
+        "id": "contact_link",
+        "href": "#",
+        "show_sub_menu": false,
+        "sub_menu": [
+            {
+                "name": "Contact Us ",
+                "href": "/contact_us"
+            },
+            {
+                "name": "Hours ",
+                "href": "/hours"
+            },
+            {
+                "name": "Directions",
+                "href": "/find_us"
+            },
+            {
+                "name": "Leasing ",
+                "href": "http://www.morguardretailleasing.com/building.php?building=holt-renfrew-centre&province=All&city=All&centre_type=All&Submit=SEARCH&lang=en_CA#.U2pE7PldV8F"
+            }
+        ]
+    }
+]
