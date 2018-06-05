@@ -90,9 +90,11 @@
     					<transition name="custom-classes-transition" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
     						<div class="dropdown-menu" v-if="item.sub_menu" v-show="item.show_sub_menu">
     						    <li>
-    						        <span></span>
-    						        <a v-if="sub_menu.external" :href="sub_menu.href" class="dropdown-item" target="_blank">{{sub_menu.name}}</a>
+    						        <span>
+    						            <a v-if="sub_menu.external" :href="sub_menu.href" class="dropdown-item" target="_blank">{{sub_menu.name}}</a>
 						            <router-link  v-else tag="a" class="dropdown-item" v-for="sub_menu in item.sub_menu" :to="sub_menu.href">{{sub_menu.name}}</router-link>
+    						        </span>
+    						        
     						    </li>
     						</div>
     					</transition>
