@@ -81,7 +81,7 @@
         						<p class="feature-html">{{item.html}}</p>
         						<span class="feature_read_more">
         							<router-link :to="item.url" class="mobile_readmore" >
-        								<p class="feature-readmore">View {{item.name}}<i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></p>
+        								<p class="feature-readmore hvr-sweep-to-right">View {{item.name}}<i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></p>
         							</router-link>
         						</span>
         					</div>
