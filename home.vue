@@ -77,7 +77,7 @@
         				<span>
         					<div class="feature-box col-sm-4" v-for="item in feature_items">
         						<p class="feature-title">{{item.name}}</p>
-        						<img :src="item.image_url" class="feature-image" :alt="feature.name"/>
+        						<img :src="item.image_url" class="feature-image" :alt="item.name"/>
         						<p class="feature-html">{{item.html}}</p>
         						<span class="feature_read_more">
         							<router-link :to="item.url" class="mobile_readmore" >
