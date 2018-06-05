@@ -40,6 +40,7 @@ require.config({
         'mapplic-png-map' : 'http://mmvue.codecloudapp.com/mapplic_png.vue?noext',
         //google map dependcies
         'google-map-api': 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCukCjH3fsuDYBdI44hZKL43m60jEToJjY'
+        'google_map': 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCukCjH3fsuDYBdI44hZKL43m60jEToJjY'
     }
 });
 
