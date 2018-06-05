@@ -5,7 +5,7 @@
         	    <div class="custom_popup" v-if="show_popup">
                     <div class="popup_form_div">
                         <h2 class="pop_up_header p_name">Join Our eClub</h2>
-                        <img class="text-left width_100 hide_desk custom_img" :src="popup.image_url" :alt=""/>
+                        <img class="text-left width_100 hide_desk custom_img" :src="popup.image_url" :alt="popup.name"/>
                         <h3 class="text-right right_desc hide_desk custom_text"></h3>
                         <div class="custom_row">
                             <div class="col-md-6">
