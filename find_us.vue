@@ -5,7 +5,7 @@
 		</div>
 		<div class="page_container">
 			<div class="row text-left">
-			    <div style="height: 300px;margin-bottom:-30px;">
+			    <div style="height: 400px;">
 			        <google-map :property="property" :zoom="18"></google-map>
 			    </div>
 			</div>
