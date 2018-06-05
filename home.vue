@@ -66,7 +66,7 @@
         			<div class="top_two hidden_phone col-sm-3">
         				<div class="banner_features"  v-for="feature in banner_features">
         					<router-link :to="feature.url">
-        						<img class="top_image" :src='feature.image_url' alt=""/>
+        						<img class="top_image" :src='feature.image_url' :alt="feature.name"/>
         						<div class="feature_overlay text-uppercase">{{feature.name}}</div>
         					</router-link>
         				</div>
