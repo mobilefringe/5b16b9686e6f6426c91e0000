@@ -4,8 +4,8 @@
 			<h2 class="page_container text_left page_header_title"> Find Us</h2>
 		</div>
 		<div style="height: 400px;">
-			        <google-map :property="property" :zoom="18"></google-map>
-			    </div>
+	        <google-map :property="property" :zoom="18"></google-map>
+	    </div>
 		<div class="page_container">
 			<div class="row text-left">
 			    
