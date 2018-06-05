@@ -2,7 +2,9 @@
 	<div class="page_container" id="find_us_container">
 		<div class="margin_25_across padding_top_40">
 			<div class="row text-left">
-			    <google-map :property="property"></google-map>
+			    <div style="height: 300px;margin-bottom:-30px;">
+			        <google-map :property="property"></google-map>
+			    </div>
 			</div>
 			<div class="padding_top_40"></div>
 		</div>
