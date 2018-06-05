@@ -54,7 +54,8 @@
     							<li v-for="item in menu_items">
     								<router-link :to="item.href" :id="item.id" class="all_caps">{{item.name}} </router-link>
     								<div v-for="sub_menu in item.sub_menu" class="sub_menu_item">
-    									<router-link :to="sub_menu.href" :id="sub_menu.id" exact>{{sub_menu.name}} </router-link>
+    								<a v-if="sub_menu.external"></a>
+    									<router-link v-else :to="sub_menu.href" :id="sub_menu.id" exact>{{sub_menu.name}} </router-link>
     								</div>
     							</li>
     						</ul>
