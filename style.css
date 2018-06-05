@@ -876,6 +876,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     margin-top:20px;
     border-bottom:1px solid #aea99e;
     padding-bottom:10px;
+        text-align: left;
 }
 
 .feature-title{
