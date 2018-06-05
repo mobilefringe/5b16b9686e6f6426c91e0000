@@ -1,7 +1,7 @@
 <template>
 	<div v-if="dataloaded"><!-- for some reason if you do not put an outer container div this component template will not render -->
 		<div class="page_header all_caps double_border_bottom">
-			<h2 class="page_container text_left"> Stores Directory & Map </h2>
+			<h2 class="page_container text_left page_container_title"> Stores Directory & Map </h2>
 		</div>
 		<div class="page_container">
 			<div class="store-list-left-block col-sm-4 padding_top_20">
