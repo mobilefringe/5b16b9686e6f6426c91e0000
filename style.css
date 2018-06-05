@@ -4527,3 +4527,8 @@ legend{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+.banner_features {
+    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+        translate(-50%,-50%) scale(1.1);
+    }
+}
