@@ -85,7 +85,7 @@
     					{{item.name}}
     				</router-link>
     				<div v-else class="all_caps dropdown" :class="{open : item.show_sub_menu}">
-    					<a href="#" class="menu_link dropdown-toggle hvr-underline-from-left" :id="item.name.id" @click="toggleSubMenu(item.id); item.show_sub_menu = !item.show_sub_menu" data-toggle="dropdown" aria-haspopup="true" :aria-expanded="item.show_sub_menu">{{item.name}} </a>
+    					<a href="#" class="menu_link dropdown-toggle hvr-underline-from-center" :id="item.name.id" @click="toggleSubMenu(item.id); item.show_sub_menu = !item.show_sub_menu" data-toggle="dropdown" aria-haspopup="true" :aria-expanded="item.show_sub_menu">{{item.name}} </a>
     					<transition name="custom-classes-transition" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
     						<div class="dropdown-menu" v-if="item.sub_menu" v-show="item.show_sub_menu">
     						    <li>
