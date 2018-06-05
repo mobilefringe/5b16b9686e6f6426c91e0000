@@ -2188,7 +2188,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     border: 1px solid #e9e9e4;
     padding:15px;
 }
-.dropdown_container p{
+.dropdown_container p, .dropdown_container h3{
     color:#6d6d6d;
     font-size:11px;
     line-height:16px;
