@@ -78,26 +78,7 @@
     .v-select li.active.hightlight {
         cursor: none!important;
     }
-    /*.category-DD-div .v-select input[type=search] {*/
-    /*    display: none;*/
-    /*}*/
- /*   #zoom_image{*/
-	/*	width:1300px;*/
-	/*	height: 787px;*/
-	/*	min-width:1300px;*/
-	/*	min-height: 787px;*/
-	/*	max-width: none;*/
-		
-	/*}*/
-	
-	
-	#png_map{
-	    width:1300px;
-		height: 787px;
-		min-width:1300px;
-		min-height: 787px;
-	}
-	
+
 	.text {
 	    color:white;
 	    font-size:16px;
