@@ -66,6 +66,7 @@
         color: #000000;
         letter-spacing: 1.56px;
         display: block;
+        transition: all 0.3s ease;
     }
 
     #stores_container .v-select .dropdown-toggle {
