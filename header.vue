@@ -139,7 +139,16 @@
                 }
             },
             created: {
-                
+                var vm = this;
+                    // hide dropdown when route changes
+                    _.forEach(this.menu_items, function(value, key) {
+                        value.show_sub_menu = false;
+                        console.log(vm.$route.path, value)
+                        if(vm.$route.path == value.href) {
+                            console.log(vm.$route.path, value)
+                        }
+                       
+                    });
             },
             computed: {
                 ...Vuex.mapGetters([
