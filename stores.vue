@@ -55,12 +55,12 @@
         color: #fff !important;
     }
 
-    .v-select .open-indicator:before {
+    #stores_container .v-select .open-indicator:before {
         border-color: #fff !important;
         margin-top: -5px;
     }
 
-    .v-select .dropdown-menu {
+    #stores_container .v-select .dropdown-menu {
         font-family: arial;
         font-size: 14px;
         color: #000000;
@@ -68,18 +68,18 @@
         display: block;
     }
 
-    .v-select .dropdown-toggle {
+    #stores_container .v-select .dropdown-toggle {
         text-align: left;
         border-radius: initial;
     }
-    .v-select .selected-tag{
+    #stores_container .v-select .selected-tag{
         position:absolute;
     }
-    .v-select li.active.hightlight {
+    #stores_container .v-select li.active.hightlight {
         cursor: none!important;
     }
 
-	.text {
+	#stores_container .text {
 	    color:white;
 	    font-size:16px;
 	    padding-top:2px;
