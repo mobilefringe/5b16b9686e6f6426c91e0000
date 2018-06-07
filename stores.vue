@@ -1,5 +1,5 @@
 <template>
-	<div v-if="dataloaded"><!-- for some reason if you do not put an outer container div this component template will not render -->
+	<div v-if="dataloaded" id="stores_container">
 		<div class="page_header all_caps double_border_bottom">
 			<h2 class="page_container text_left page_header_title"> Stores Directory & Map </h2>
 		</div>
