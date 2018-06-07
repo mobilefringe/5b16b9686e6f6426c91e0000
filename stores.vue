@@ -19,7 +19,7 @@
 					<div class="dropdown_container hidden_phone">
 						<h3 class="text_left">Select Category</h3>
 						<div class="category-DD-div">
-							<v-select v-model="selectedCat" :options="dropDownCats" :searchable="false" :on-change="filterByCategory" transition="slideOutUp"></v-select>
+							<v-select v-model="selectedCat" :options="dropDownCats" :searchable="false" :on-change="filterByCategory" transition="bounce"></v-select>
 						</div>
 						<h3 class="text_left" style=" margin-top: 10px;">Sort Alphabetically</h3>
 						<div class="category-DD-div">
