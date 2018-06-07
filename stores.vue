@@ -44,7 +44,7 @@
 </template>
 
 <style>
-    .v-select .open-indicator {
+    #stores_container .v-select .open-indicator {
         right: 0 !important;
         top: 0 !important;
         bottom: initial !important;
