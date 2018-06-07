@@ -154,6 +154,9 @@
                         if(menu.id !== id) {
                             menu.show_sub_menu = false;
                         }
+                        else {
+                            menu.activeClass = true;
+                        }
                     });
                 },
             }
