@@ -37,7 +37,7 @@
                                         </label>
                                         <label class="main_label">
                                             <input type="checkbox" id="popup_agree" required />
-                                            I agree to receive emails from Eastgate Square.
+                                            I agree to receive emails from {{property.name}}.
                                         </label>
                                         <button type="submit" class="popup_submit">Submit</button>	
                                     </form>	
