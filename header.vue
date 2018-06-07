@@ -124,7 +124,7 @@
                         value.show_sub_menu = false;
                         console.log(vm.$route.path, value)
                         if(vm.$route.path == value.href) {
-                             console.log(vm.$route.path, value)
+                            console.log(vm.$route.path, value)
                         }
                        
                     });
@@ -137,6 +137,9 @@
                         document.body.classList.remove("no-scroll");
                     }
                 }
+            },
+            created: {
+                
             },
             computed: {
                 ...Vuex.mapGetters([
