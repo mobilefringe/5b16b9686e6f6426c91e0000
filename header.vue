@@ -153,6 +153,7 @@
                    this.menu_items.map(menu => {
                         if(menu.id !== id) {
                             menu.show_sub_menu = false;
+                            menu.activeClass = false;
                         }
                         else {
                             menu.activeClass = true;
