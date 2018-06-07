@@ -46,7 +46,7 @@
     					<div class="row" style="margin:auto">
     						<div class="col-sm-6 text-left">
     							<p class="footer_sitemap"> <a href="/pages/holtrenfrew-privacy-policy">Privacy Policy</a> | <a href="/contact_us">Contact Us</a> | <br class="show_phone"> <a href="http://www.mallmaverick.com" target="_blank">Powered by Mall Maverick</a>  </p>
-    							<p class="" v-if="property"> {{property.address1}} {{property.city}}{{property.province}} {{property.postal_code}} <span>-  {{property.contact_phone}}</span></p>
+    							<p class="" v-if="property"> {{property.address1}} {{property.city}}{{property.province}} {{property.postal_code}} <span v-if="property.contact_phone">-  {{property.contact_phone}}</span></p>
     						</div>
     						<div class="col-sm-6 text-right">
     							<p class="footer_copyright">&copy; Copyright {{copyright_year}} {{property.name}} <br/>
