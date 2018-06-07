@@ -121,6 +121,7 @@
                     // hide dropdown when route changes
                     _.forEach(this.menu_items, function(value, key) {
                         value.show_sub_menu = false;
+                        if(this.$route.path == value.href)
                         console.log(this.$route.path)
                     });
                     this.show_mobile_menu = false; //close menu when navigating to new page
