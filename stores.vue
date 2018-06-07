@@ -8,7 +8,7 @@
 			    <div style="position:relative; z-index:999999999;">
     			    <p class="text_left">Select Stores: </p>
     				<div class="alphabet-dd show_phone" >
-    				    <v-select v-model="selectedStore" :options="filteredStores" searchable=false id="mobile_alpha_list" label="name" placeholder="Select a Store" ></v-select>
+    				    <v-select v-model="selectedStore" :options="filteredStores" :searchable="false" id="mobile_alpha_list" label="name" placeholder="Select a Store" ></v-select>
     			    </div>
 			    </div>
 		        <div id="mapsvg_store_detail_1" class="show_phone">
