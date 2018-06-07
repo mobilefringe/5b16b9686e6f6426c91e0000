@@ -123,7 +123,7 @@
             created(){
                 host_name = this.property.mm_host.replace("http:", "");
                 this.$store.dispatch('LOAD_PAGE_DATA', {
-                    url: host_name + "/pages/holtrenfrewcentre-contact-us.json"
+                    url: host_name + "/pages/holtrenfrew-contact-us.json"
                 }).then(response => {
                     this.currentPage = response.data;
                 }, error => {
