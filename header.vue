@@ -123,7 +123,9 @@
                     _.forEach(this.menu_items, function(value, key) {
                         value.show_sub_menu = false;
                         console.log(vm.$route.path, value)
-                        if(vm.$route.path == value.href)
+                        if(vm.$route.path == value.href) {
+                            
+                        }
                         console.log(vm.$route.path, value)
                     });
                     this.show_mobile_menu = false; //close menu when navigating to new page
