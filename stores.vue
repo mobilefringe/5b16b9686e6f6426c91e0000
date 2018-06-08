@@ -22,7 +22,7 @@
 						</div>
 						<h3 class="text_left" style=" margin-top: 10px;">Sort Alphabetically</h3>
 						<div class="category-DD-div">
-							<v-select v-model="selectedAlpha" :options="alphabet" :searchable="false" :on-change="filterStores"></v-select>
+							<v-select v-model="selectedAlpha" :options="alphabet" :searchable="false" :on-change="filterStores" placeholder="Select a Store"></v-select>
 						</div>
 					</div>
 					
