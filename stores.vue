@@ -12,7 +12,6 @@
     			    </div>
 			    </div>
 		        <div id="mapsvg_store_detail_1" class="show_phone">
-					<!--<png-map :png-map-url="getPNGurl" v-bind:initial-position="'500 450'" v-if="mobile_store"></png-map>-->
 					<mapplic-png-map ref="pngmaprefmobile" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="1300" :svgHeight="787"  v-if="mobile_store"></mapplic-png-map>
 				</div>
 				<div class="store-list-container hidden_phone">
