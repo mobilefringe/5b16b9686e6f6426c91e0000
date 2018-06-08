@@ -164,20 +164,10 @@
                 updatePNGMap(map) {
                     this.map = map;
                 },
-                // addLandmark(store) {
-                //     if(this.windowWidth <= 768 && this.selectedStore) {
-                //         this.pngMapRef.addMarker(store);
-                //     }
-                //     else if(this.windowWidth > 768) {
-                //         this.pngMapRef.addMarker(store);
-                //     }
-                // },
                 getWindowWidth(event) {
                     this.windowWidth = window.innerWidth;
                 },
                 dropPin(store) {
-                    // console.log("store.svgmap_region",store.svgmap_region);
-                    // this.$refs.mapplic_ref.showLocation(store.id);
                      if(this.windowWidth <= 768 && this.selectedStore) {
                         this.pngMapRef.showLocation(store.id);
                     }
