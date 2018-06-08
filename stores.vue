@@ -148,7 +148,6 @@
                     }
 
                     this.breakIntoCol = false;
-                    console.log(category_id);
                     if (category_id == "All") {
                         this.filteredStores = this.allStores; //this.storesByAlphaIndex;
                         // this.breakIntoCol = true;
