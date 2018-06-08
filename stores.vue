@@ -163,7 +163,6 @@
                 },
                 updatePNGMap(map) {
                     this.map = map;
-                    // console.log("in updatepng")
                 },
                 // addLandmark(store) {
                 //     if(this.windowWidth <= 768 && this.selectedStore) {
