@@ -163,6 +163,7 @@
                     'processedPromos',
                 ]),
                 promotions() {
+                    var promos_events = 
                     var vm = this;
                     var temp_promo = [];
                     var temp_job = [];
