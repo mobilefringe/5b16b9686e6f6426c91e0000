@@ -3,7 +3,7 @@
         <div class="margin_25_across padding_top_40">
             <div class="row"> 
                 <div class="col-sm-8 contact_contents">
-                    <img style="margin-bottom:20px;"  src='//codecloud.cdn.speedyrails.net/sites/5b16b9686e6f6426c91e0000/image/jpeg/1521735730000/Contact_Us.jpg' alt="plaza">
+                    <!--<img style="margin-bottom:20px;"  src='//codecloud.cdn.speedyrails.net/sites/5b16b9686e6f6426c91e0000/image/jpeg/1521735730000/Contact_Us.jpg' alt="plaza">-->
                     <div class="description_text text_left">
                         We value your feedback. Send us your comments or questions by completing the contact form below.
                     </div>
