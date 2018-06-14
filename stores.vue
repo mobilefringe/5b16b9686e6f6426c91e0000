@@ -158,7 +158,6 @@
                         });
                         this.filteredStores = filtered;
                     }
-                    // this.filteredStores = 
                 },
                 updateSVGMap(map) {
                     this.map = map;
