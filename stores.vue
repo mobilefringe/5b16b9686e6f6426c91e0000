@@ -160,7 +160,7 @@
                     }
                     // this.filteredStores = 
                 },
-                updatePNGMap(map) {
+                updateSVGMap(map) {
                     this.map = map;
                 },
                 getWindowWidth(event) {
