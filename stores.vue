@@ -170,7 +170,7 @@
                         this.svgMapRef.showLocation(store.svgmap_region);
                     }
                     else if(this.windowWidth > 768) {
-                        this.svgMapRef.showLocation(store.id);
+                        this.svgMapRef..showLocation(store.svgmap_region);
                     }
                 },
             },
@@ -240,7 +240,7 @@
                     var floor_1 = {};
                     floor_1.id = "first-floor";
                     floor_1.title = "Floor 1";
-                    floor_1.map = this.getSVGurl;
+                    floor_1.map = //this.getSVGurl;
                     floor_1.z_index = 1;
                     floor_1.show = true;
                     
