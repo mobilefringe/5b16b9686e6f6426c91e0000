@@ -141,7 +141,7 @@
                 updateCurrentPromo (id) {
                     this.currentPromo = this.findPromoBySlug(id);
                     if (this.currentPromo === null || this.currentPromo === undefined){
-                        this.currentPromo = this.findPromoBySlug(id);
+                        this.currentPromo = this.findEventBySlug(id);
                         this.$router.replace({ path: '/'});
                     }
                 }
