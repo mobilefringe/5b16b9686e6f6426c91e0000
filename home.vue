@@ -110,7 +110,6 @@
                         prevArrow: '.prev',
                         nextArrow: '.next',
                         autoplay: true
-                        // Any other options that can be got from plugin documentation
                     },
                     dataLoaded: false,
                     show_popup: false,
