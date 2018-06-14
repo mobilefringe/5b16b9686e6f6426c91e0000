@@ -209,7 +209,7 @@
                     return this.$store.getters.findCategoryByName;
                 },
                 getSVGurl() {
-                    return "https://www.mallmaverick.com" + this.property.map_url;
+                    return "https://www.mallmaverick.com" + this.property.svg_map_url;
                 },
                 storeNames () {
                     return _.map(this.filteredStores, 'name');
