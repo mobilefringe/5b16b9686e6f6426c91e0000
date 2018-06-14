@@ -106,6 +106,45 @@
                             }
                         }
                     })
+                },
+                campaignMonitorCall(form, form_data_id) {
+                    // Get e-mail value.
+                    var vm = this;
+                    email = $('input[type=email]', form).val();
+        
+                    // Build request data for tokenRequest.
+                    request_data = "email=" + encodeURIComponent(email) + "&data=" + form_data_id;
+        
+                    // Prepare tokenRequest.
+                    tokenRequest = new XMLHttpRequest();
+                    tokenRequest.open('POST', 'https://createsend.com//t/getsecuresubscribelink', true);
+                    tokenRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                    tokenRequest.send(request_data);
+        
+                    // Ready state.
+                    tokenRequest.onreadystatechange = function() {
+                        if (this.readyState === 4) {
+                            if (this.status === 200) {
+                                // Having token and new submit url we can create new request to subscribe a user.
+                                subscribeRequest = new XMLHttpRequest();
+                                subscribeRequest.open('POST', this.responseText, true);
+                                subscribeRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                subscribeRequest.send(form.serialize());
+                                // On ready state call response function.
+                                subscribeRequest.onreadystatechange = function() {
+                                    if (subscribeRequest.readyState === 4) {
+                                        if (_.includes(subscribeRequest.response, 'Thank You')) {
+                                            vm.formSuccess = true;
+                                        } else {
+                                            vm.formError = true;
+                                        }
+                                    }
+                                }
+                            } else {
+                                return false;
+                            }
+                        }
+                    }
                 }
             }
         });
