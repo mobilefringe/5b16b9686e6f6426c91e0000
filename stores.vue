@@ -217,10 +217,10 @@
                 svgMapRef() {
                     var reference = null; 
                     if(this.windowWidth <= 768) {
-                        reference = this.$refs.pngmaprefmobile;
+                        reference = this.$refs.svgmaprefmobile;
                     }
                     else {
-                        reference = this.$refs.pngmap_ref;
+                        reference = this.$refs.svgmap_ref;
                     }
                     return reference;
                 },
