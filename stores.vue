@@ -12,7 +12,7 @@
     			    </div>
 			    </div>
 		        <div id="mapsvg_store_detail_1" class="show_phone">
-					<mapplic-map ref="pngmaprefmobile" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="2500" :svgHeight="2500"  v-if="mobile_store"></mapplic-map>
+					<mapplic-map ref="svgmaprefmobile" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="2500" :svgHeight="2500"  v-if="mobile_store"></mapplic-map>
 				</div>
 				<div class="store-list-container hidden_phone">
 					<div class="dropdown_container hidden_phone">
@@ -35,7 +35,7 @@
 			</div>
 			<div class="col-sm-8 padding_top_20">
 				<div id="mapsvg_store_detail" class=" map">
-					<mapplic-map ref="pngmap_ref" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="property.map_image_width" :svgHeight="property.map_image_height" v-if="!mobile_store"></mapplic-map>
+					<mapplic-map ref="svgmap_ref" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="property.map_image_width" :svgHeight="property.map_image_height" v-if="!mobile_store"></mapplic-map>
 				</div>
 			</div>
 		</div>
