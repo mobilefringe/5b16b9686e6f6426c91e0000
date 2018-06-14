@@ -88,7 +88,7 @@
 </style>
 
 <script>
-    define(["Vue", "vuex", "vue-select", "vue!mapplic-png-map"], function(Vue, Vuex, VueSelect, MapplicComponent) {
+    define(["Vue", "vuex", "vue-select", "vue!mapplic-svg"], function(Vue, Vuex, VueSelect, MapplicComponent) {
         return Vue.component("stores-component", {
             template: template, // the variable template will be injected
             data: function() {
