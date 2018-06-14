@@ -108,7 +108,7 @@
                     this.dataloaded = true;
                     this.filteredStores = this.allStores;
                     
-                    this.$on('updateMap', this.updatePNGMap);
+                    this.$on('updateMap', this.updateSVGMap);
                 });
             },
             watch: {
