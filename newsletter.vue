@@ -18,7 +18,7 @@
                         <div class="form-group">
                             <div class="col-sm-6 col-xs-12">
                                 <label class="label" for="newsletter_email">Email</label>
-                                <input v-model="form_data.email" required class="form-control" name="cm-irudui-irudui" type="email" placeholder="Email" id="newsletter_email">
+                                <input v-model="form_data.email" required class="form-control" name="cm-vijtdu-vijtdu" type="email" placeholder="Email" id="newsletter_email">
                             </div>
                         </div>
                         <div class="form-group account-btn text-left m-t-10">
