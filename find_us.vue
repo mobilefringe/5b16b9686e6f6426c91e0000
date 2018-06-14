@@ -3,7 +3,7 @@
 	    <div class="page_header all_caps double_border_bottom">
 			<h2 class="page_container text_left page_header_title"> Find Us</h2>
 		</div>
-		<div style="height: 400px;" class="page_container">
+		<div style="height: 400px;>
 	        <google-map :property="property" :zoom="18"></google-map>
 	    </div>
 		<div class="page_container">
