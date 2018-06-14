@@ -131,6 +131,7 @@
                     'processedPromos',
                     'findPromoBySlug',
                     'findPromoById',
+                    'findEventBySlug'
                     'timezone'
                 ]),
                 allPromos() {
