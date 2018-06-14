@@ -208,7 +208,7 @@
                 findCategoryByName() {
                     return this.$store.getters.findCategoryByName;
                 },
-                getPNGurl() {
+                getSVGurl() {
                     return "https://www.mallmaverick.com" + this.property.map_url;
                 },
                 storeNames () {
