@@ -214,7 +214,7 @@
                 storeNames () {
                     return _.map(this.filteredStores, 'name');
                 },
-                pngMapRef() {
+                svgMapRef() {
                     var reference = null; 
                     if(this.windowWidth <= 768) {
                         reference = this.$refs.pngmaprefmobile;
