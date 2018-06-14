@@ -167,7 +167,7 @@
                 },
                 dropPin(store) {
                      if(this.windowWidth <= 768 && this.selectedStore) {
-                        this.svgMapRef.showLocation(store.id);
+                        this.svgMapRef.showLocation(store.svgmap_region);
                     }
                     else if(this.windowWidth > 768) {
                         this.svgMapRef.showLocation(store.id);
