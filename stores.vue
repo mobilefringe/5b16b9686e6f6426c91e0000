@@ -168,10 +168,10 @@
                 },
                 dropPin(store) {
                      if(this.windowWidth <= 768 && this.selectedStore) {
-                        this.pngMapRef.showLocation(store.id);
+                        this.svgMapRef.showLocation(store.id);
                     }
                     else if(this.windowWidth > 768) {
-                        this.pngMapRef.showLocation(store.id);
+                        this.svgMapRef.showLocation(store.id);
                     }
                 },
             },
