@@ -29,7 +29,7 @@
                                 </label>
     					    </div>
                             <div class="col-xs-12">
-                                <button class="feature-readmore" type="submit" :disabled="formSuccess">Subscribe</button>
+                                <button class="feature-readmore hvr-sweep-to-right" type="submit" :disabled="formSuccess">Subscribe</button>
                             </div>
                         </div>
                     </form>
