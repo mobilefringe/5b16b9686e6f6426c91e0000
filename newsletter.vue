@@ -8,7 +8,7 @@
             </div>
             <div class="row"> 
                 <div class="col-md-12 contact_contents padding_top_20">
-                    <form class="form-horizontal" action="//mobilefringe.createsend.com/t/d/s/irudui/" method="post" @submit.prevent="validateBeforeSubmit">
+                    <form class="form-horizontal" id="subForm" method="post" @submit.prevent="validateBeforeSubmit">
                         <div class="form-group ">
                             <div class="col-sm-6 col-xs-12" >
                                 <label class="label" for="cm-name">Name</label>
