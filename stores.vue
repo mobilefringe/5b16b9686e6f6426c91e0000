@@ -12,7 +12,7 @@
     			    </div>
 			    </div>
 		        <div id="mapsvg_store_detail_1" class="show_phone">
-					<mapplic-map ref="pngmaprefmobile" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="1300" :svgHeight="787"  v-if="mobile_store"></mapplic-png-map>
+					<mapplic-map ref="pngmaprefmobile" :height="500" :minimap= "false" :deeplinking="false" :sidebar="false" :hovertip="true" :storelist="allStores" :floorlist="floorList" :bindLocationOpened="true" :svgWidth="1300" :svgHeight="787"  v-if="mobile_store"></mapplic-map>
 				</div>
 				<div class="store-list-container hidden_phone">
 					<div class="dropdown_container hidden_phone">
