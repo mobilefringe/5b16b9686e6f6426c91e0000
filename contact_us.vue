@@ -39,14 +39,14 @@
                                 <span v-show="errors.has('message')" class="form-control-feedback">{{ errors.first('message') }}</span>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-xs-12" :class="{'has-error': errors.has('message')}">
-                                <label class="label" for="validate">Enter the following number below to proceed: {{correctValNum}}</label> 
-                                <input v-model="validaNum" v-validate="'required|numeric|min:6|max:6'" class="form-control" :class="{'input': true}" name="validate" type="text" placeholder="Enter above number" data-vv-delay="500" id="validate">
-                                <span v-show="errors.has('validate')" class="form-control-feedback">{{ errors.first('validate') }}</span>
-                                <span v-if="validaNum.length === 6 && validaNum !== correctValNum && errors.first('validate') == null" class="form-control-feedback" :class="{shake_element : validNumError}">Please enter correct number</span>
-                            </div>
-                        </div>
+                        <!--<div class="form-group">-->
+                        <!--    <div class="col-xs-12" :class="{'has-error': errors.has('message')}">-->
+                        <!--        <label class="label" for="validate">Enter the following number below to proceed: {{correctValNum}}</label> -->
+                        <!--        <input v-model="validaNum" v-validate="'required|numeric|min:6|max:6'" class="form-control" :class="{'input': true}" name="validate" type="text" placeholder="Enter above number" data-vv-delay="500" id="validate">-->
+                        <!--        <span v-show="errors.has('validate')" class="form-control-feedback">{{ errors.first('validate') }}</span>-->
+                        <!--        <span v-if="validaNum.length === 6 && validaNum !== correctValNum && errors.first('validate') == null" class="form-control-feedback" :class="{shake_element : validNumError}">Please enter correct number</span>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                         <div class="form-group account-btn text-left m-t-10">
                             <div class="col-xs-12">
                                 <button class="feature-readmore" type="submit" :disabled="formSuccess">Submit</button>
