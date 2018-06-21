@@ -161,6 +161,7 @@
                     return  _.slice(this.$store.state.feature_items, 0, 2);
                 },
                 feature_items () {
+                    var feature_items = 
                     return _.slice(this.$store.state.feature_items, 2,this.$store.state.feature_items.length );
                 }
             },
