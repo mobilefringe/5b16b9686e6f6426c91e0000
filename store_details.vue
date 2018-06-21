@@ -161,6 +161,7 @@
                     }
                     
                     var vm = this;
+                    if (currentStore.store_hours) {
                     var storeHours = [];
                     _.forEach(this.currentStore.store_hours, function (value, key) {
                         storeHours.push(vm.findHourById(value));
