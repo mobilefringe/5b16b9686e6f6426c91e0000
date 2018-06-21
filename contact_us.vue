@@ -150,7 +150,7 @@
             methods: {
                 validateBeforeSubmit() {
                     this.$validator.validateAll().then((result) => {
-                    if (result && (this.correctValNum === this.validaNum)) {
+                    if (result) {
                         this.validNumError = false;
                         let errors = this.errors;
                         send_data = {};
