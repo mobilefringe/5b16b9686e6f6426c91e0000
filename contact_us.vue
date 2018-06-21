@@ -62,9 +62,9 @@
                     <div class="page_header all_caps double_border_bottom">
             			<div class=" text_left"> CENTRE INFORMATION</div>
             		</div>
-            		<div class="property_address">
-            		     {{property.address1}} <br/> {{property.city}} <br/> {{property.province}} {{property.postal_code}} 
-            		</div>
+            		<!--<div class="property_address">-->
+            		<!--     {{property.address1}} <br/> {{property.city}} <br/> {{property.province}} {{property.postal_code}} -->
+            		<!--</div>-->
                     <div class="text-left" v-html="currentPage.body"></div>
                 </div> 
             </div>
