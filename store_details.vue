@@ -23,7 +23,7 @@
 					    <a v-bind:href="'//'+currentStore.website" target="_blank">Visit Store Site</a>    
 					</div>
 					
-					<div v-if="currentStore.store_hours.length > 0">
+					<div v-if="currentStore.store_hours && currentStore.store_hours.length > 0">
 					    <p class="underline">Store Hours</p>
 					    <ul class="store_details_hours">
                             <li v-if="!hour.is_closed" v-for="hour in hours">
