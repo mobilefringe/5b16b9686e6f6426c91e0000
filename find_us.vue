@@ -33,7 +33,7 @@
                 ]),
             },
             // /pages/holtrenfrew-directions
-            updateCurrentPage () {
+            created () {
                 host_name = this.property.mm_host.replace("http:", "");
                 this.$store.dispatch('LOAD_PAGE_DATA', {
                     url: host_name + "/pages/holtrenfrew-directions.json"
