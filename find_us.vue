@@ -26,12 +26,24 @@
                     currentPage: null
                 }
             },
+            
+            created () {
+                host_name = this.property.mm_host.replace("http:", "");
+                this.$store.dispatch('LOAD_PAGE_DATA', {
+                    url: host_name + "/pages/holtrenfrew-directions.json"
+                }).then(response => {
+                    this.currentPage = response.data;
+                }, error => {
+                    console.error("Could not retrieve data from server. Please check internet connection and try again.");
+                    this.$router.replace({ path: '/'});
+                });
+            },
             computed: {
                 ...Vuex.mapGetters([
                     'property',
                     'timezone',
                 ]),
-            },
+            }
         });
     });
 </script>
