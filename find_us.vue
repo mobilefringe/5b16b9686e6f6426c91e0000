@@ -7,7 +7,7 @@
 	        <google-map :property="property" :zoom="18"></google-map>
 	    </div>
 		<div class="page_container">
-			<div class="row text-left" v-html="currentPage.body">
+			<div class="row text-left" v-if="currentPage" v-html="currentPage.body">
 			    
 			</div>
 		</div>
