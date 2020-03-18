@@ -17,6 +17,10 @@
         "show_sub_menu": false,
         "sub_menu": [
             {
+                "name" : "COVID-19 Updates",
+                "href" : "/pages/holtrenfrew-covid-19"
+            },
+            {
                 "name": "Accessibilty ",
                 "href": "/pages/holtrenfrew-accessibility"
             },
